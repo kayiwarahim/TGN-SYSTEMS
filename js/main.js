@@ -90,7 +90,7 @@ $(document).ready(function() {
                             confirmButtonText: "OK"
                         }).then((result) => {
                             if (result.isConfirmed) {
-                                window.location.href = 'index.html#footer'; // Redirects to footer after confirmation
+                                window.location.href = '#footer'; // Redirects to footer after confirmation
                             }
                         });
                     } else {
